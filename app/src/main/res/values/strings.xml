@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">عُسبرة</string>
+    <string name="signin1_text">Let\'s get you a ride</string>
+    <string name="login_mobile">Enter mobile number</string>
+    <string name="login_mobile_create">to create an account or log in</string>
+    <string name="continue_button">Continue</string>
+    <string name="ur_id">Enter your PIN:</string>
+    <string name="pin">PIN</string>
+    <string name="error_pin">PIN is invalid</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="email">Email</string>
+    <string name="phone_num">Phone Number</string>
+    <string name="createAccount">"Create Account"</string>
+    <string name="enterfName">Enter first name</string>
+    <string name="enterlName">Enter last name</string>
+    <string name="enterEmail">Enter email</string>
+    <string name="enterPhone">Enter phone number</string>
+    <string name="enterVEmail">Enter valid email!</string>
+    <string name="mismatch">mismatching</string>
+    <string name="picOpt">Upload Pictures Option</string>
+    <string name="picQ">How do you want to set your picture?</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+    <string name="pin_signup">your PIN is:</string>
+    <string name="pin_description">You will need it to login another time, remember it please.</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="English">English</string>
+    <string name="Arabic">Arabic</string>
+    <string name="menu_history">My Trips</string>
+    <string name="menu_Payment">Payment</string>
+    <string name="menu_Offers">Offers</string>
+    <string name="menu_setting">Settings</string>
+    <string name="title_activity_menu_drawer">MenuDrawerActivity</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="menu_Contactus">About us</string>
+    <string name="help">Help</string>
+    <string name="notify">Notification</string>
+    <string name="username_hint">Username</string>
+    <string name="phone_hint">Phone No.</string>
+    <string name="Save_button">Save</string>
+    <string name="pers_info">Personal Information</string>
+    <string name="lang">Language</string>
+    <string name="fav_p">Favorite Places</string>
+    <string name="logout">Logout</string>
+    <string name="offer1Topic">Free Trip !</string>
+    <string name="contentoffer1">get a free trip with your first ride !</string>
+    <string name="use_code">Use the code :</string>
+    <string name="offer2Topic">Get a 20% discount on all morning trips</string>
+    <string name="contentoffer2">The offer is valid until 29 August.</string>
+
+    <string name="title_activity_driver_map">Map</string>
+    <!--<string name="google_maps_key">AIzaSyA1q0njLUVJAkbBC6FfKsnSCQqLzN9KybI</string>-->
+    <string name="to_where">Enter your pickup location ... </string>
+    <string name="done">Done</string>
+    <string name="title_activity_waiting">Map</string>
+    <string name="trip_description">Best comfort and Best price in one trip!</string>
+    <string name="confirm">Confirm</string>
+    <string name="cash">Cash</string>
+    <string name="promo">+PROMO CODE</string>
+    <string name="cancel">CANCEL</string>
+    <string name="search">Search for a driver ..</string>
+    <string name="from">From:</string>
+    <string name="To">To :</string>
+    <string name="Elm">ELM - Suhail</string>
+    <string name="KSU">King Saud University</string>
+    <string name="expTime">Expected time :</string>
+    <string name="expTimeContent">  35 mins</string>
+    <string name="shareTrip">Share</string>
+    <string name="live">LIVE</string>
+    <string name="search_driver">Searching for driver</string>
+    <string name="trip_rate">Rate trip</string>
+    <string name="submit">Submit</string>
+    <string name="dname">Driver\'s name:</string>
+    <string name="driver_name">Abeer AlMajed</string>
+    <string name="car_type">Car type:</string>
+    <string name="mercedes_2019">Mercedes 2019</string>
+    <string name="car_plate">Car plate:</string>
+    <string name="car_num">xyz-1506</string>
+    <string name="menu_driver">Become a driver</string>
+    <string name="join_us">do you want to join us as a driver !</string>
+    <string name="visit">you can visit Asbora website to complete the registeration requirement</string>
+    <string name="click_to_move">Click to move</string>
+    <string name="Asbora_website">Asbora website</string>
+
+    <string name="default_card_num">***** **** **** 9357</string>
+    <string name="pay_credit_card">Pay</string>
+    <string name="saved_credit_card">Saved Credit Card</string>
+    <string name="add_credit_card">Add Credit Card</string>
+
+    <string name="dialog_complete_form">Please complete form !</string>
+    <string name="save_card">Save card</string>
+    <string name="Offers">Offers</string>
+
+
+</resources>

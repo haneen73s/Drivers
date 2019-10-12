@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?><!--  Single List Item Design -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:orientation="vertical"
+    android:id="@+id/setting">
+
+        <CheckedTextView
+            android:id="@+id/pers_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pers_info"
+            android:padding="20dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:drawableEnd="@drawable/ic_keyboard_arrow_right_black_24dp"
+            />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <CheckedTextView
+        android:id="@+id/lang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_keyboard_arrow_right_black_24dp"
+        android:padding="20dp"
+        android:text="@string/lang"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <Switch
+        android:id="@+id/setNotif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:padding="20dp"
+        android:text="@string/notify"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:theme="@style/SCBSwitch" />
+
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+
+    <CheckedTextView
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/logout"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:drawableTop="@drawable/ic_power_settings_new_black_24dp"
+        android:background="@color/colorAccentLight"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+
+
+
+
+
+</LinearLayout>

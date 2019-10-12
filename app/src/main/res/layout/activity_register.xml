@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".RegisterActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bggg"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="410dp"
+                android:orientation="vertical"
+                android:layout_marginBottom="150dp">
+
+                <EditText
+                    android:id="@+id/fname_signup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:drawableLeft="@drawable/ic_perm_identity_black_24dp"
+                    android:drawablePadding="10dp"
+                    android:hint="@string/fname"
+                    android:inputType="textPersonName"
+                    android:padding="20dp"
+                    android:textColorHint="#606060"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/lname_signup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:drawableLeft="@drawable/ic_perm_identity_black_24dp"
+                    android:drawablePadding="10dp"
+                    android:hint="@string/lname"
+                    android:inputType="textPersonName"
+                    android:padding="20dp"
+                    android:textColorHint="#606060"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/email_signup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:drawableLeft="@drawable/ic_mail_outline_black_24dp"
+                    android:drawablePadding="10dp"
+                    android:hint="@string/email"
+                    android:inputType="text"
+                    android:padding="20dp"
+                    android:textColorHint="#606060"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/phone_signupN"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:drawableLeft="@drawable/ic_phone_android_black_24dp"
+                    android:drawablePadding="10dp"
+                    android:hint="@string/phone_num"
+                    android:inputType="textPersonName"
+                    android:padding="20dp"
+                    android:textColorHint="#606060"
+                    android:textSize="14sp"
+                    android:maxLength="13"/>
+
+                <CheckBox
+                    android:id="@+id/checkbox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Agree to Out Terms &amp; Conditions" />
+
+                <ImageButton
+                    android:id="@+id/register_button"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginEnd="25dp"
+                    android:background="@drawable/button_bg"
+                    android:src="@drawable/ic_arrow_forward_black_24dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

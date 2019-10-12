@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <CheckedTextView
+        android:id="@+id/lang1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/thumbnail"
+        android:gravity="center"
+        android:paddingLeft="@dimen/album_title_padding"
+        android:paddingTop="@dimen/album_title_padding"
+        android:paddingRight="@dimen/album_title_padding"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:text="@string/Arabic"/>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignBottom="@+id/thumbnail"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"/>
+
+
+    <CheckedTextView
+        android:id="@+id/lang2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/thumbnail"
+        android:gravity="center"
+        android:paddingLeft="@dimen/album_title_padding"
+        android:paddingTop="@dimen/album_title_padding"
+        android:paddingRight="@dimen/album_title_padding"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:text="@string/English" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignBottom="@+id/thumbnail"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"/>
+</LinearLayout>
